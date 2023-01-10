@@ -19,6 +19,9 @@ return require('packer').startup(function(use)
     -- LspConfig 
     use 'neovim/nvim-lspconfig'
     use 'williamboman/nvim-lsp-installer'
+    
+    -- Startup Screen
+    use 'goolord/alpha-nvim'
 
     -- Cmp Plugins
     use 'hrsh7th/nvim-cmp'
